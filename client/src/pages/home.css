@@ -1,0 +1,147 @@
+main {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+.opening {
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    padding: 50px 100px;
+}
+
+.opening > h2 {
+    margin-top: 150px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.opening > h1 {
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+.app_btn {
+    background: #F95353;
+    border-color: #F95353;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 32px;
+}
+
+.redirect-btn {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.about {
+    padding: 50px 100px;
+    background-color: rgba(131, 216, 224, 0.429);
+}
+
+.heading {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-size: 6rem;
+    text-transform: uppercase;
+    text-shadow: -14px -14px 23px rgb(255 255 255 / 24%), 14px 14px 23px rgb(17 17 17 / 24%);
+}
+
+.skill {
+    padding: 10px 100px;
+    background-color: aliceblue;
+}
+
+.box {
+    display: flex;
+}
+
+.skill_heading {
+    color: #f95353a5;
+    text-decoration: underline 5px;
+    text-underline-offset: 6px;
+    font-weight: 600;
+}
+.skill-box {
+    background-color: #707070;
+    box-shadow: -12px -12px 25px white, 12px 12px 25px rgb(165 181 248 / 40%);
+    transition: all 0.2s ease-in-out;
+    padding: 4rem;
+    margin: 10px;
+    color: white;
+    font-weight: 200;
+    text-align: center;
+}
+
+.resume {
+    text-decoration: none;
+}
+
+.tech > h2 {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.tech_box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tech_box >h4 {
+    /* background: #707070;
+    border-color: #707070; */
+    color: #707070;
+    font-weight: 100;
+    padding: 10px 32px;
+}
+
+.education {
+    padding: 40px 100px;
+    background-color: rgba(131, 216, 224, 0.429);
+}
+
+.edHeading {
+    color: rgba(0, 0, 0, 0.555);
+}
+
+.lgrey {
+    color: rgba(0, 0, 0, 0.719);
+}
+
+.contact {
+    /* text-align: center; */
+    padding: 100px 100px;
+    background-color: rgba(0, 0, 0, 0.927);
+}
+
+.cLink {
+    text-align: center;
+}
+
+.cLink > * {
+    font-size: 50px;
+    color: white;
+    margin: 0 20px;
+}
+
+.cnt {
+    font-size: 3em;
+}
+
+.project {
+    padding: 10px 100px;
+    background-color: aliceblue;
+}
+
+.probox {
+    background-color: #f6f6f686;
+    box-shadow: -12px -12px 25px white, 12px 12px 25px rgb(165 181 248 / 40%);
+    padding: 4rem;
+    margin: 10px 0;
+
+}
+.list {
+    list-style: circle;
+}

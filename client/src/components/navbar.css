@@ -1,0 +1,32 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name > h2 {
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: #F95353;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.logout_btn {
+    background: #F95353;
+    border-color: #F95353;
+    color: #fff;
+    border-radius: 30px;
+    margin-left: 50px;
+    padding: 10px 32px;
+}
+
+.routes > a {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
